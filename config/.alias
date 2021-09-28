@@ -1,0 +1,16 @@
+# Neovim
+alias v="nvim"
+alias updateLunar="cd ~/.local/share/lunarvim/lvim/ &&  git pull origin rolling && lvim +LvimCacheReset +PackerUpdate && cd -"
+
+
+# Dotfiles tooling
+alias ale="nvim ~/ter"
+alias pke="nvim ~/termux-dotfiles/apps.sh"
+
+# Cli apps
+alias lzg="lazygit"
+# Show hidden and details
+alias n="nnn -dH"
+
+# Termux
+alias pkgi="pkg install -y"
